@@ -6,4 +6,4 @@ Additional tools for the [Homebrew](https://brew.sh) package manager.
 
 | Tool    | Installation command               |
 | ------- | -----------------------------------|
-| lldb-mi | `brew install eclipse-cdt/tools/lldb-mi` |
+| lldb-mi | `brew install --HEAD eclipse-cdt/tools/lldb-mi` |
