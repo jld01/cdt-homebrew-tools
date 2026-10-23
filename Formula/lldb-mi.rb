@@ -1,5 +1,5 @@
 ################################################################################
-# Copyright (c) 2025, Eclipse Foundation, Inc. and its licensors.
+# Copyright (c) 2025, 2026 Eclipse Foundation, Inc. and its licensors.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -36,7 +36,7 @@ class LldbMi < Formula
   head "https://github.com/lldb-tools/lldb-mi.git", branch: "main"
 
   depends_on "cmake" => :build
-  depends_on "llvm"
+  depends_on "lldb"
 
   def install
     system "cmake", "-S", ".", "-B", "build",
